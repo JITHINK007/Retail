@@ -1,0 +1,122 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: grey;
+    padding: 10px;
+    z-index: 999;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+#about {
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+#stocks {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stock-item {
+    display: inline-block;
+    margin-right: 20px; 
+    vertical-align: top; 
+    width: calc(33.33% - 20px); 
+}
+
+.stock-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%; 
+    height: auto; 
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #888;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
